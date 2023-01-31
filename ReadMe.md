@@ -1,6 +1,6 @@
 # Знакомство с **Веб-технологиями** (семинары)
 
-## Lesson01Semonar01HW01
+## Lesson01Seminar01HW01
 
 ## Задание:
 
@@ -12,7 +12,7 @@
 
 ---
 
-## Lesson02Semonar02HW02
+## Lesson02Seminar02HW02
 
 ## Задание:
 
@@ -21,7 +21,7 @@
 
 ---
 
-## Lesson03Semonar03HW03
+## Lesson03Seminar03HW03
 
 ## Задание:
 
