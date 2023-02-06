@@ -1,0 +1,23 @@
+<!--
+    Знакомство с веб-технологиями (семинары)
+Урок 3. Основы JavaScript
+Задание №2 - вычислить результат 158+2 и вывести значение выражения в диалоговое окно.
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function calculate() {
+        var num1 = parseInt(prompt("Введите число:"));
+        var num2 = 2;
+        var result = num1 + num2;
+        alert("Ваш результат: " + result);
+      }
+    </script>
+  </head>
+  <body style="background-color: whitesmoke; display: flex; align-items: center; justify-content: center; height: 100vh;">
+      <button onclick="calculate()" style="font-size: 48px; background-color: teal; color: white;">Рассчитать</button>
+    </div>
+  </body>
+</html>

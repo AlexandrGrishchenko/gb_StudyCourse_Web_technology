@@ -1,0 +1,34 @@
+<!--
+    Знакомство с веб-технологиями (семинары)
+Урок 3. Основы JavaScript
+Рабочее Задание №3 - передать строковый параметр в диалоговое окно. Например, вывести «Привет, Алевтина!», где имя — это передаваемый параметр.
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+    </style>
+    <script>
+      //В этом примере функция JavaScript ShowMessage принимает имя параметра и отображает его в диалоговом окне оповещения с сообщением "Привет, [имя]!"//
+      function showMessage(name) {
+        alert("Привет, " + name + "!");
+      }
+    </script>
+  </head>
+  <body>
+    <div class="center">
+      <p>Нажмите на кнопку, чтобы увидеть сообщение:</p>
+      <button onclick="showMessage('Алевтина')">Нажать</button>
+    </div>
+  </body>
+</html>
+<!--
+  Элемент button имеет атрибут onclick, который вызывает функцию ShowMessage со строковым параметром 'Алевтина'
+-->
